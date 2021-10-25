@@ -19,6 +19,7 @@ post_data = ({
     'client_secret': ''
 })
 
+
 # Send the data.
 r = requests.post(auth_endpoint, data=post_data)
 
